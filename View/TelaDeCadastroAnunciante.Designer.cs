@@ -145,6 +145,7 @@ namespace Projeto.View
             this.btnCadastrarAnunciante.TabIndex = 26;
             this.btnCadastrarAnunciante.Text = "CADASTRAR";
             this.btnCadastrarAnunciante.UseVisualStyleBackColor = true;
+            this.btnCadastrarAnunciante.Click += new System.EventHandler(this.btnCadastrarAnunciante_Click);
             // 
             // rbCNPJ
             // 
@@ -157,6 +158,7 @@ namespace Projeto.View
             this.rbCNPJ.TabStop = true;
             this.rbCNPJ.Text = "CNPJ";
             this.rbCNPJ.UseVisualStyleBackColor = true;
+            this.rbCNPJ.CheckedChanged += new System.EventHandler(this.rbCNPJ_CheckedChanged);
             // 
             // rbCPF
             // 
@@ -170,6 +172,7 @@ namespace Projeto.View
             // 
             // mtbCNPJ
             // 
+            this.mtbCNPJ.Enabled = false;
             this.mtbCNPJ.Location = new System.Drawing.Point(91, 108);
             this.mtbCNPJ.Mask = "00,000,000/0000-00";
             this.mtbCNPJ.Name = "mtbCNPJ";
@@ -180,6 +183,7 @@ namespace Projeto.View
             // 
             // mtbCPF
             // 
+            this.mtbCPF.Enabled = false;
             this.mtbCPF.Location = new System.Drawing.Point(91, 137);
             this.mtbCPF.Mask = "000.000.000.00";
             this.mtbCPF.Name = "mtbCPF";
@@ -210,6 +214,7 @@ namespace Projeto.View
             this.Controls.Add(this.label1);
             this.Name = "frmTelaDeCadastroAnunciante";
             this.Text = "TELA DE CADASTRO ANUNCIANTE";
+            this.Load += new System.EventHandler(this.frmTelaDeCadastroAnunciante_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

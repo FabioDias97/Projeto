@@ -24,6 +24,16 @@ namespace Projeto.View
 
         private void mtbCnpj_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
         {
+            
+        }
+
+        private void btnCadastrarAnunciante_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rbCNPJ_CheckedChanged(object sender, EventArgs e)
+        {
             if (rbCNPJ.Checked)
             {
                 mtbCNPJ.ReadOnly = false;
@@ -37,6 +47,11 @@ namespace Projeto.View
                 rbCPF.Checked = false;
                 rbCPF.Enabled = false;
             }
+        }
+
+        private void frmTelaDeCadastroAnunciante_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

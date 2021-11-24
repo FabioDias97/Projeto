@@ -55,13 +55,15 @@ namespace Projeto
             this.label12 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
-            this.cbbUf = new System.Windows.Forms.ComboBox();
+            this.cbbUF = new System.Windows.Forms.ComboBox();
+            this.ttbCidade = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 19);
+            this.label1.Location = new System.Drawing.Point(32, 16);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(162, 15);
             this.label1.TabIndex = 0;
@@ -70,15 +72,15 @@ namespace Projeto
             // 
             // ttbNomeCovidado
             // 
-            this.ttbNomeCovidado.Location = new System.Drawing.Point(12, 37);
+            this.ttbNomeCovidado.Location = new System.Drawing.Point(32, 34);
             this.ttbNomeCovidado.Name = "ttbNomeCovidado";
-            this.ttbNomeCovidado.Size = new System.Drawing.Size(382, 23);
+            this.ttbNomeCovidado.Size = new System.Drawing.Size(360, 23);
             this.ttbNomeCovidado.TabIndex = 1;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 78);
+            this.label2.Location = new System.Drawing.Point(32, 109);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(122, 15);
             this.label2.TabIndex = 2;
@@ -86,15 +88,15 @@ namespace Projeto
             // 
             // ttbEnderecoConvidado
             // 
-            this.ttbEnderecoConvidado.Location = new System.Drawing.Point(12, 96);
+            this.ttbEnderecoConvidado.Location = new System.Drawing.Point(32, 127);
             this.ttbEnderecoConvidado.Name = "ttbEnderecoConvidado";
-            this.ttbEnderecoConvidado.Size = new System.Drawing.Size(278, 23);
+            this.ttbEnderecoConvidado.Size = new System.Drawing.Size(246, 23);
             this.ttbEnderecoConvidado.TabIndex = 3;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(313, 78);
+            this.label3.Location = new System.Drawing.Point(314, 109);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(65, 15);
             this.label3.TabIndex = 4;
@@ -103,75 +105,76 @@ namespace Projeto
             // 
             // ttbNumeroCasa
             // 
-            this.ttbNumeroCasa.Location = new System.Drawing.Point(315, 96);
+            this.ttbNumeroCasa.Location = new System.Drawing.Point(300, 127);
             this.ttbNumeroCasa.Name = "ttbNumeroCasa";
-            this.ttbNumeroCasa.Size = new System.Drawing.Size(79, 23);
+            this.ttbNumeroCasa.Size = new System.Drawing.Size(92, 23);
             this.ttbNumeroCasa.TabIndex = 5;
             this.ttbNumeroCasa.TextChanged += new System.EventHandler(this.ttbNumeroCasa_TextChanged);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 135);
+            this.label4.Location = new System.Drawing.Point(271, 228);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(117, 15);
+            this.label4.Size = new System.Drawing.Size(73, 15);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Informe seu Telefone";
+            this.label4.Text = "Seu Telefone";
             // 
             // mtbTelefoneConvidado
             // 
-            this.mtbTelefoneConvidado.Location = new System.Drawing.Point(13, 154);
+            this.mtbTelefoneConvidado.Location = new System.Drawing.Point(271, 246);
             this.mtbTelefoneConvidado.Mask = "(00)00000-0000";
             this.mtbTelefoneConvidado.Name = "mtbTelefoneConvidado";
-            this.mtbTelefoneConvidado.Size = new System.Drawing.Size(161, 23);
+            this.mtbTelefoneConvidado.Size = new System.Drawing.Size(121, 23);
             this.mtbTelefoneConvidado.TabIndex = 7;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(230, 135);
+            this.label5.Location = new System.Drawing.Point(268, 281);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(151, 15);
+            this.label5.Size = new System.Drawing.Size(124, 15);
             this.label5.TabIndex = 8;
-            this.label5.Text = "Telefone (Pessoa Confiável)";
+            this.label5.Text = "Tel. (Pessoa Confiável)";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // mtbTelefonePessoaConfiavel
             // 
-            this.mtbTelefonePessoaConfiavel.Location = new System.Drawing.Point(230, 153);
+            this.mtbTelefonePessoaConfiavel.Location = new System.Drawing.Point(271, 299);
             this.mtbTelefonePessoaConfiavel.Mask = "(00)00000-0000";
             this.mtbTelefonePessoaConfiavel.Name = "mtbTelefonePessoaConfiavel";
-            this.mtbTelefonePessoaConfiavel.Size = new System.Drawing.Size(164, 23);
+            this.mtbTelefonePessoaConfiavel.Size = new System.Drawing.Size(121, 23);
             this.mtbTelefonePessoaConfiavel.TabIndex = 9;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(422, 135);
+            this.label6.Location = new System.Drawing.Point(268, 60);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(98, 15);
+            this.label6.Size = new System.Drawing.Size(32, 15);
             this.label6.TabIndex = 11;
-            this.label6.Text = "Informe seu Sexo";
+            this.label6.Text = "Sexo";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // cbbSexo
             // 
             this.cbbSexo.FormattingEnabled = true;
-            this.cbbSexo.Location = new System.Drawing.Point(422, 154);
+            this.cbbSexo.Location = new System.Drawing.Point(268, 78);
             this.cbbSexo.Name = "cbbSexo";
-            this.cbbSexo.Size = new System.Drawing.Size(199, 23);
+            this.cbbSexo.Size = new System.Drawing.Size(124, 23);
             this.cbbSexo.TabIndex = 12;
             // 
             // ttbEmailConvidado
             // 
-            this.ttbEmailConvidado.Location = new System.Drawing.Point(12, 209);
+            this.ttbEmailConvidado.Location = new System.Drawing.Point(32, 246);
             this.ttbEmailConvidado.Name = "ttbEmailConvidado";
-            this.ttbEmailConvidado.Size = new System.Drawing.Size(278, 23);
+            this.ttbEmailConvidado.Size = new System.Drawing.Size(221, 23);
             this.ttbEmailConvidado.TabIndex = 13;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(12, 191);
+            this.label7.Location = new System.Drawing.Point(32, 228);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(107, 15);
             this.label7.TabIndex = 14;
@@ -180,7 +183,7 @@ namespace Projeto
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(343, 191);
+            this.label8.Location = new System.Drawing.Point(32, 281);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(115, 15);
             this.label8.TabIndex = 15;
@@ -188,15 +191,15 @@ namespace Projeto
             // 
             // ttbConfirmacaoEmailConvidado
             // 
-            this.ttbConfirmacaoEmailConvidado.Location = new System.Drawing.Point(343, 209);
+            this.ttbConfirmacaoEmailConvidado.Location = new System.Drawing.Point(32, 299);
             this.ttbConfirmacaoEmailConvidado.Name = "ttbConfirmacaoEmailConvidado";
-            this.ttbConfirmacaoEmailConvidado.Size = new System.Drawing.Size(278, 23);
+            this.ttbConfirmacaoEmailConvidado.Size = new System.Drawing.Size(221, 23);
             this.ttbConfirmacaoEmailConvidado.TabIndex = 16;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(422, 19);
+            this.label9.Location = new System.Drawing.Point(32, 60);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(94, 15);
             this.label9.TabIndex = 17;
@@ -204,16 +207,16 @@ namespace Projeto
             // 
             // mtbCPF
             // 
-            this.mtbCPF.Location = new System.Drawing.Point(422, 37);
+            this.mtbCPF.Location = new System.Drawing.Point(32, 78);
             this.mtbCPF.Mask = "000,000,000,00";
             this.mtbCPF.Name = "mtbCPF";
-            this.mtbCPF.Size = new System.Drawing.Size(199, 23);
+            this.mtbCPF.Size = new System.Drawing.Size(148, 23);
             this.mtbCPF.TabIndex = 18;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(13, 250);
+            this.label10.Location = new System.Drawing.Point(32, 334);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(90, 15);
             this.label10.TabIndex = 19;
@@ -221,16 +224,16 @@ namespace Projeto
             // 
             // ttbSenhaConvidado
             // 
-            this.ttbSenhaConvidado.Location = new System.Drawing.Point(12, 268);
+            this.ttbSenhaConvidado.Location = new System.Drawing.Point(32, 352);
             this.ttbSenhaConvidado.Name = "ttbSenhaConvidado";
-            this.ttbSenhaConvidado.Size = new System.Drawing.Size(278, 23);
+            this.ttbSenhaConvidado.Size = new System.Drawing.Size(168, 23);
             this.ttbSenhaConvidado.TabIndex = 20;
             this.ttbSenhaConvidado.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(343, 250);
+            this.label11.Location = new System.Drawing.Point(224, 334);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(113, 15);
             this.label11.TabIndex = 21;
@@ -238,22 +241,22 @@ namespace Projeto
             // 
             // ttbConfirmacaoSenhaConvidado
             // 
-            this.ttbConfirmacaoSenhaConvidado.Location = new System.Drawing.Point(343, 268);
+            this.ttbConfirmacaoSenhaConvidado.Location = new System.Drawing.Point(224, 352);
             this.ttbConfirmacaoSenhaConvidado.Name = "ttbConfirmacaoSenhaConvidado";
-            this.ttbConfirmacaoSenhaConvidado.Size = new System.Drawing.Size(278, 23);
+            this.ttbConfirmacaoSenhaConvidado.Size = new System.Drawing.Size(169, 23);
             this.ttbConfirmacaoSenhaConvidado.TabIndex = 22;
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(422, 96);
+            this.textBox5.Location = new System.Drawing.Point(32, 181);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(120, 23);
+            this.textBox5.Size = new System.Drawing.Size(122, 23);
             this.textBox5.TabIndex = 23;
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(422, 78);
+            this.label12.Location = new System.Drawing.Point(32, 163);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(38, 15);
             this.label12.TabIndex = 24;
@@ -261,9 +264,9 @@ namespace Projeto
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(207, 308);
+            this.button1.Location = new System.Drawing.Point(116, 403);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(205, 33);
+            this.button1.Size = new System.Drawing.Size(195, 33);
             this.button1.TabIndex = 25;
             this.button1.Text = "CADASTRAR";
             this.button1.UseVisualStyleBackColor = true;
@@ -271,26 +274,46 @@ namespace Projeto
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(560, 78);
+            this.label13.Location = new System.Drawing.Point(300, 163);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(21, 15);
             this.label13.TabIndex = 26;
             this.label13.Text = "UF";
+            this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
-            // cbbUf
+            // cbbUF
             // 
-            this.cbbUf.FormattingEnabled = true;
-            this.cbbUf.Location = new System.Drawing.Point(560, 96);
-            this.cbbUf.Name = "cbbUf";
-            this.cbbUf.Size = new System.Drawing.Size(61, 23);
-            this.cbbUf.TabIndex = 27;
+            this.cbbUF.FormattingEnabled = true;
+            this.cbbUF.Location = new System.Drawing.Point(299, 181);
+            this.cbbUF.Name = "cbbUF";
+            this.cbbUF.Size = new System.Drawing.Size(93, 23);
+            this.cbbUF.TabIndex = 27;
+            this.cbbUF.SelectedIndexChanged += new System.EventHandler(this.cbbUF_SelectedIndexChanged);
+            // 
+            // ttbCidade
+            // 
+            this.ttbCidade.Location = new System.Drawing.Point(171, 181);
+            this.ttbCidade.Name = "ttbCidade";
+            this.ttbCidade.Size = new System.Drawing.Size(107, 23);
+            this.ttbCidade.TabIndex = 28;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(171, 163);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(44, 15);
+            this.label14.TabIndex = 29;
+            this.label14.Text = "Cidade";
             // 
             // frmTelaDeCadastroConvidado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(663, 353);
-            this.Controls.Add(this.cbbUf);
+            this.ClientSize = new System.Drawing.Size(426, 448);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.ttbCidade);
+            this.Controls.Add(this.cbbUF);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label12);
@@ -318,7 +341,9 @@ namespace Projeto
             this.Controls.Add(this.ttbNomeCovidado);
             this.Controls.Add(this.label1);
             this.Name = "frmTelaDeCadastroConvidado";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TELA DE CADASTRO CONVIDADO";
+            this.Load += new System.EventHandler(this.frmTelaDeCadastroConvidado_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -352,6 +377,8 @@ namespace Projeto
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.ComboBox cbbUf;
+        private System.Windows.Forms.ComboBox cbbUF;
+        private System.Windows.Forms.TextBox ttbCidade;
+        private System.Windows.Forms.Label label14;
     }
 }
