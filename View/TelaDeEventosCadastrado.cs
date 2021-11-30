@@ -10,20 +10,19 @@ using System.Windows.Forms;
 
 namespace Projeto.View
 {
-    public partial class frmTelaDeCadastroEventos : Form
+    public partial class frmTelaDeEventosCadastrado : Form
     {
-        public frmTelaDeCadastroEventos()
+        public frmTelaDeEventosCadastrado()
         {
             InitializeComponent();
         }
 
-        private void btnTCEVoltar_Click(object sender, EventArgs e)
+        private void label4_Click(object sender, EventArgs e)
         {
-            frmTelaDeMenuAnunciante tela = new frmTelaDeMenuAnunciante();
-            tela.Show();
+
         }
 
-        private void textBox3_TextChanged(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }

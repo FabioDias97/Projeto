@@ -39,13 +39,15 @@ namespace Projeto.View
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(49, 218);
+            this.label1.Location = new System.Drawing.Point(54, 218);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(76, 15);
             this.label1.TabIndex = 0;
@@ -54,7 +56,7 @@ namespace Projeto.View
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(51, 276);
+            this.label2.Location = new System.Drawing.Point(54, 276);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(74, 15);
             this.label2.TabIndex = 1;
@@ -62,17 +64,17 @@ namespace Projeto.View
             // 
             // ttbEmailCadastrado
             // 
-            this.ttbEmailCadastrado.Location = new System.Drawing.Point(49, 236);
+            this.ttbEmailCadastrado.Location = new System.Drawing.Point(54, 236);
             this.ttbEmailCadastrado.Name = "ttbEmailCadastrado";
-            this.ttbEmailCadastrado.Size = new System.Drawing.Size(286, 23);
+            this.ttbEmailCadastrado.Size = new System.Drawing.Size(309, 23);
             this.ttbEmailCadastrado.TabIndex = 4;
             // 
             // ttbSenhaCadastrada
             // 
-            this.ttbSenhaCadastrada.Location = new System.Drawing.Point(49, 294);
+            this.ttbSenhaCadastrada.Location = new System.Drawing.Point(54, 294);
             this.ttbSenhaCadastrada.Name = "ttbSenhaCadastrada";
             this.ttbSenhaCadastrada.PasswordChar = '*';
-            this.ttbSenhaCadastrada.Size = new System.Drawing.Size(286, 23);
+            this.ttbSenhaCadastrada.Size = new System.Drawing.Size(309, 23);
             this.ttbSenhaCadastrada.TabIndex = 5;
             // 
             // btnEntrar
@@ -80,19 +82,20 @@ namespace Projeto.View
             this.btnEntrar.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnEntrar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnEntrar.ForeColor = System.Drawing.Color.White;
-            this.btnEntrar.Location = new System.Drawing.Point(49, 341);
+            this.btnEntrar.Location = new System.Drawing.Point(54, 339);
             this.btnEntrar.Name = "btnEntrar";
-            this.btnEntrar.Size = new System.Drawing.Size(286, 36);
+            this.btnEntrar.Size = new System.Drawing.Size(309, 36);
             this.btnEntrar.TabIndex = 6;
             this.btnEntrar.Text = "ENTRAR";
             this.btnEntrar.UseVisualStyleBackColor = false;
+            this.btnEntrar.Click += new System.EventHandler(this.btnEntrar_Click);
             // 
             // btnRedefinirSenha
             // 
             this.btnRedefinirSenha.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnRedefinirSenha.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnRedefinirSenha.ForeColor = System.Drawing.Color.White;
-            this.btnRedefinirSenha.Location = new System.Drawing.Point(218, 395);
+            this.btnRedefinirSenha.Location = new System.Drawing.Point(246, 395);
             this.btnRedefinirSenha.Name = "btnRedefinirSenha";
             this.btnRedefinirSenha.Size = new System.Drawing.Size(117, 27);
             this.btnRedefinirSenha.TabIndex = 7;
@@ -105,7 +108,7 @@ namespace Projeto.View
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.LightSkyBlue;
-            this.label3.Location = new System.Drawing.Point(137, 168);
+            this.label3.Location = new System.Drawing.Point(165, 168);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(95, 36);
             this.label3.TabIndex = 9;
@@ -116,7 +119,7 @@ namespace Projeto.View
             this.button1.BackColor = System.Drawing.Color.DodgerBlue;
             this.button1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(49, 395);
+            this.button1.Location = new System.Drawing.Point(54, 395);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(86, 27);
             this.button1.TabIndex = 10;
@@ -127,18 +130,28 @@ namespace Projeto.View
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(111, 23);
+            this.pictureBox1.Location = new System.Drawing.Point(137, 23);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(150, 142);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(-4, -3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(429, 455);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 12;
+            this.pictureBox2.TabStop = false;
+            // 
             // frmTelaDeLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(389, 445);
+            this.ClientSize = new System.Drawing.Size(414, 445);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
@@ -148,10 +161,12 @@ namespace Projeto.View
             this.Controls.Add(this.ttbEmailCadastrado);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox2);
             this.Name = "frmTelaDeLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TELA DE LOGIN";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -168,5 +183,6 @@ namespace Projeto.View
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

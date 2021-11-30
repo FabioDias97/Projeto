@@ -40,14 +40,14 @@ namespace Projeto.View
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(22, 431);
+            this.progressBar1.Location = new System.Drawing.Point(38, 428);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(324, 27);
+            this.progressBar1.Size = new System.Drawing.Size(324, 33);
             this.progressBar1.TabIndex = 7;
             // 
             // lblStatus
             // 
-            this.lblStatus.Location = new System.Drawing.Point(22, 393);
+            this.lblStatus.Location = new System.Drawing.Point(38, 387);
             this.lblStatus.Name = "lblStatus";
             this.lblStatus.Size = new System.Drawing.Size(324, 23);
             this.lblStatus.TabIndex = 9;
@@ -56,7 +56,7 @@ namespace Projeto.View
             // lblFWB
             // 
             this.lblFWB.Font = new System.Drawing.Font("Stencil", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblFWB.Location = new System.Drawing.Point(22, 31);
+            this.lblFWB.Location = new System.Drawing.Point(38, 30);
             this.lblFWB.Name = "lblFWB";
             this.lblFWB.Size = new System.Drawing.Size(324, 56);
             this.lblFWB.TabIndex = 10;
@@ -66,7 +66,7 @@ namespace Projeto.View
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(38, 288);
+            this.label2.Location = new System.Drawing.Point(64, 275);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(284, 81);
             this.label2.TabIndex = 11;
@@ -78,7 +78,7 @@ namespace Projeto.View
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(389, 475);
+            this.pictureBox1.Size = new System.Drawing.Size(425, 485);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
@@ -88,7 +88,7 @@ namespace Projeto.View
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.ClientSize = new System.Drawing.Size(388, 470);
+            this.ClientSize = new System.Drawing.Size(420, 483);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblFWB);
             this.Controls.Add(this.lblStatus);

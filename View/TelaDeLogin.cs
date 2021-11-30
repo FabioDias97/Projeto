@@ -24,7 +24,14 @@ namespace Projeto.View
 
         private void button1_Click(object sender, EventArgs e)
         {
+            frmInicial tela = new frmInicial();
+            tela.Show();
+        }
 
+        private void btnEntrar_Click(object sender, EventArgs e)
+        {
+            frmTelaDeMenuAnunciante tela = new frmTelaDeMenuAnunciante();
+            tela.Show();
         }
     }
 }
